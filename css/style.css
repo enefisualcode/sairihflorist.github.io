@@ -19,5 +19,21 @@
 }
 
 .hovered-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
+}
+
+.produkkami {
+  padding-top: 3rem;
+}
+
+.standingFlower {
+  padding-top: 5rem;
+}
+
+.karanganBunga {
+  padding-top: 5rem;
+}
+
+.parsel {
+  padding-top: 1.5rem;
 }

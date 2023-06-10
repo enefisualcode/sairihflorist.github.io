@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Sairih Florist | Jual Tanaman Hias</title>
   </head>
-  <body>
+  <body id="home">
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg bg-light fixed-top">
       <div class="container">
@@ -24,10 +24,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item me-3">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#">Produk</a>
+              <a class="nav-link" href="#produkkami">Produk</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#tentangKami">Tentang Kami</a>
             </li>
             <li class="nav-item me-3">
               <a class="nav-link" href="#pesanSekarang">Pesan </a>
@@ -41,48 +44,121 @@
     <div class="container-fluid banner d-flex align-items-center"></div> -->
 
     <!-- slide -->
-    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active c-item">
-          <img src="https://images.unsplash.com/photo-1463320898484-cdee8141c787?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="d-block w-100 c-img" alt="silde 1" />
-          <div class="carousel-caption top-0 mt-5">
-            <p class="mt-5 fs-5">Menyediakan berbagai macam tanaman hias</p>
-            <h1 class="display-1 fw-bold text-capitalize">Selamat Datang di Sairih Florist</h1>
-            <button class="btn btn-success px-4 py-2 fs-5 mt-5"><a href="#produkkami" class="text-decoration-none text-light">Produk Kami</a></button>
+    <div class="pt-5 mt-2">
+      <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active c-item">
+            <img src="https://images.unsplash.com/photo-1463320898484-cdee8141c787?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="d-block w-100 c-img" alt="silde 1" />
+            <div class="carousel-caption top-0 mt-5">
+              <p class="mt-5 fs-5">Menyediakan berbagai macam tanaman hias</p>
+              <h1 class="display-1 fw-bold text-capitalize">Selamat Datang di Sairih Florist</h1>
+              <button class="btn btn-success btn-sm px-4 py-2 fs-5 mt-5"><a href="#produkkami" class="text-decoration-none text-light">Produk Kami</a></button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="https://images.unsplash.com/photo-1551970634-747846a548cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="d-block w-100 c-img" alt="slide 2" />
+            <div class="carousel-caption top-0 mt-5">
+              <p class="mt-5 fs-5">Menyediakan berbagai macam tanaman hias</p>
+              <h1 class="display-1 fw-bold text-capitalize">Selamat Datang di Sairih Florist</h1>
+              <button class="btn btn-success btn-sm px-4 py-2 fs-5 mt-5"><a href="#produkkami" class="text-decoration-none text-light">Produk Kami</a></button>
+            </div>
+          </div>
+          <div class="carousel-item c-item">
+            <img src="https://images.unsplash.com/photo-1604762524889-3e2fcc145683?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80" class="d-block w-100 c-img" alt="slide 3" />
+            <div class="carousel-caption top-0 mt-5">
+              <p class="mt-5 fs-5">Menyediakan berbagai macam tanaman hias</p>
+              <h1 class="display-1 fw-bold text-capitalize">Selamat Datang di Sairih Florist</h1>
+              <button class="btn btn-success btn-sm px-4 py-2 fs-5 mt-5"><a href="#produkkami" class="text-decoration-none text-light">Produk Kami</a></button>
+            </div>
           </div>
         </div>
-        <div class="carousel-item c-item">
-          <img src="https://images.unsplash.com/photo-1551970634-747846a548cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" class="d-block w-100 c-img" alt="slide 2" />
-          <div class="carousel-caption top-0 mt-5">
-            <p class="mt-5 fs-5">Menyediakan berbagai macam tanaman hias</p>
-            <h1 class="display-1 fw-bold text-capitalize">Selamat Datang di Sairih Florist</h1>
-            <button class="btn btn-success px-4 py-2 fs-5 mt-5">Produk Kami</button>
-          </div>
-        </div>
-        <div class="carousel-item c-item">
-          <img src="https://images.unsplash.com/photo-1604762524889-3e2fcc145683?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80" class="d-block w-100 c-img" alt="slide 3" />
-          <div class="carousel-caption top-0 mt-5">
-            <p class="mt-5 fs-5">Menyediakan berbagai macam tanaman hias</p>
-            <h1 class="display-1 fw-bold text-capitalize">Selamat Datang di Sairih Florist</h1>
-            <button class="btn btn-success px-4 py-2 fs-5 mt-5">Produk Kami</button>
-          </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
 
     <!-- card -->
-    <div class="container">
+
+    <div class="container fluid pb-3 produkkami" id="produkkami">
+      <h1 class="text-center pt-3"><a href="produk.html" class="text-decoration-none text-dark">Produk Kami</a></h1>
+      <div class="container mt-3">
+        <div class="row">
+          <!-- card 1 parsel-->
+          <div class="col-6">
+            <div class="card h-100">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="https://images.tokopedia.net/img/cache/900/VqbcmM/2022/4/14/7d7b4fd8-c3ba-43f9-95d7-d6199d3b1872.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-md-7">
+                  <h4 class="card-title mt-3 mx-2">Parsel</h4>
+                  <p class="mx-2 fw-light lh-sm">Menyediakan beragam Parsel untuk berbagai macam acara</p>
+                  <button class="btn btn-success m-2"><a href="produk.html#bodyProduk" class="text-decoration-none text-light">Selengkapnya</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 2 standing flower -->
+          <div class="col-6">
+            <div class="card h-100">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="https://images.tokopedia.net/img/cache/900/VqbcmM/2021/5/1/e967f3ee-1aef-413a-be05-09705bc05f0e.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-md-7">
+                  <h4 class="card-title mt-3 mx-2">Standing Flower</h4>
+                  <p class="mx-2 fw-light lh-sm">Menyediakan berbagai macam standing flower</p>
+                  <button class="btn btn-success m-2"><a href="produk.html#standingFlower" class="text-decoration-none text-light">Selengkapnya</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- card 3 tanaman hias-->
+        <div class="row mt-3">
+          <div class="col-6">
+            <div class="card h-100">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="https://demfarm.id/wp-content/uploads/2021/12/Hari-Ibu.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-md-7">
+                  <h4 class="card-title mt-3 mx-2">Tanaman Hias</h4>
+                  <p class="mx-2 fw-light lh-sm">Menyediakan beragam macam tanaman hias sampai bonsai</p>
+                  <button class="btn btn-success m-2"><a href="produk.html#tanamanHias" class="text-decoration-none text-light">Selengkapnya</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- card 4 bunga meja -->
+          <div class="col-6">
+            <div class="card h-100">
+              <div class="row">
+                <div class="col-md-5">
+                  <img src="https://images.tokopedia.net/img/cache/900/VqbcmM/2021/5/1/e967f3ee-1aef-413a-be05-09705bc05f0e.jpg" class="img-fluid" alt="" />
+                </div>
+                <div class="col-md-7">
+                  <h4 class="card-title mt-3 mx-2">Karangan Bunga Meja</h4>
+                  <p class="mx-2 fw-light lh-sm">Menyediakan berbagai macam standing</p>
+                  <button class="btn btn-success m-2"><a href="produk.html#karanganBunga" class="text-decoration-none text-light">Selengkapnya</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container">
       <h1 class="text-center my-3" id="produkkami">Produk Kami</h1>
       <div class="row my-3 justify-content-center">
-        <div class="col-md-3 my-3 hovered-card">
+        <div class="col-lg-3 my-3 hovered-card">
           <div class="card">
             <img src="https://www.bhinneka.com/_next/image?url=https%3A%2F%2Fstatic.bmdstatic.com%2Fgk%2Fproduction%2Fb5e734ae623508a4996f42785d43a594.jpg&w=1080&q=75" class="card-img-top" alt="" />
             <div class="card-body">
@@ -113,6 +189,11 @@
           </div>
         </div>
       </div>
+    </div> -->
+
+    <!-- button beli -->
+    <div class="d-grid gap-2 m-3">
+      <a href="https://wa.wizard.id/d27ae6" id="pesanSekarang" class="btn btn-success" style="--bs-btn-padding-y: 1rem" type="button" target="_blank">Pesan Sekarang <i class="bi bi-cart"></i></a>
     </div>
 
     <!-- accrodion -->
@@ -149,10 +230,21 @@
       </div>
     </div>
 
-    <!-- button beli -->
-    <div class="d-grid gap-2 m-3">
-      <a href="https://wa.wizard.id/a68ffa" id="pesanSekarang" class="btn btn-success" style="--bs-btn-padding-y: 1rem" type="button" target="_blank">Pesan Sekarang <i class="bi bi-cart"></i></a>
+    <div class="p-3 bg-success text-light">
+      <div class="container">
+        <h1 class="text-center fw-bold" id="tentangKami">Tentang Kami</h1>
+        <p class="text-center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem ad inventore officia placeat ipsum voluptatum, magni, eos odio natus architecto laudantium rem optio voluptatibus dolores aspernatur fuga eveniet explicabo
+          praesentium.
+        </p>
+      </div>
     </div>
+
+    <footer>
+      <div class="container">
+        <p class="text-center py-2 mt-2">Develop by &copy; 2023 | enefisual.code</p>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
